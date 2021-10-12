@@ -1,4 +1,4 @@
-# Odoo-installation on Linux(Ubuntu)
+# Odoo-11 installation on Linux(Ubuntu)
 
 1. Install git on your Linux machine
 
