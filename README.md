@@ -40,7 +40,7 @@
       
 6. Create User and alter password
 
-    `sudo -u postgres createuser -s $USER`
+    `sudo -u postgres createuser -s $User_name`
     
     - Enter into postgres console
 
