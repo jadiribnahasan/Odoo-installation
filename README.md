@@ -48,7 +48,7 @@
         
     - Alter the default password
 
-        `ALTER USER user_name WITH PASSWORD 'new_password'`
+        `ALTER USER user_name WITH PASSWORD 'new_password';`
         
 7. Now create virtual environment
 
@@ -78,17 +78,17 @@
     
     - Now install all the dependencies listed in requirements.txt file located in odoo directory
 
-        `pip3 install $path_to_the_requirements.txt_file`
+        `pip3 install -r $path_to_the_requirements.txt_file`
         
   9. Install wkhtmltopdf
   
     - Go to (https://github.com/odoo/odoo/wiki/Wkhtmltopdf/) and make sure which version should be compatible with which version of odoo
     
     
-        `wget https://github.com/wkhtmltopdf/packaging/releases/download/0.12.6-1/wkhtmltox_0.12.6-1.focal_amd64.deb`
+        `wget https://github.com/wkhtmltopdf/packaging/releases/download/0.12.5-1/wkhtmltox_0.12.6-1.focal_amd64.deb`
       
       
-        `sudo apt install ./wkhtmltox_0.12.6-1.focal_amd64.deb`
+        `sudo apt install ./wkhtmltox_0.12.5-1.focal_amd64.deb`
       
   10. Download and install nodejs and npm
 
@@ -106,7 +106,7 @@
 
       `[options]`
       
-      `addons_path = $path_to_the_odoo_addons_folder,`
+      `addons_path = $path_to_the_odoo_addons_folder, (add custom addons path here if any)`
       
       `db_host = localhost`
       
