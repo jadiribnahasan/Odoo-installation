@@ -85,7 +85,7 @@
     - Go to (https://github.com/odoo/odoo/wiki/Wkhtmltopdf/) and make sure which version should be compatible with which version of odoo
     
     
-        `wget https://github.com/wkhtmltopdf/packaging/releases/download/0.12.5-1/wkhtmltox_0.12.6-1.focal_amd64.deb`
+        `wget https://github.com/wkhtmltopdf/packaging/releases/download/0.12.5-1/wkhtmltox_0.12.5-1.focal_amd64.deb`
       
       
         `sudo apt install ./wkhtmltox_0.12.5-1.focal_amd64.deb`
