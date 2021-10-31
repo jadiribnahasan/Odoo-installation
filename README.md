@@ -6,7 +6,7 @@
 
 2. Clone specefic odoo version from the odoo git repository
 
-    `git clone --depth 1 -b 11.0 -single-branch https://github.com/odoo/odoo.git`
+    `git clone --depth 1 -b 11.0 --single-branch https://github.com/odoo/odoo.git`
 
 3. Now add deadsnakes ppa repository to change between python versions later
 
